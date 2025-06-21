@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "111111",
+      "role": "teacher",
+      "name": "GV A"
+    },
+    {
+      "id": "2",
+      "email": "student@example.com",
+      "password": "222222",
+      "role": "student",
+      "name": "SV B"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "code": "CS101",
+      "name": "Cơ sở dữ liệu",
+      "teacherId": "1"
+    },
+    {
+      "id": "2",
+      "code": "CS102",
+      "name": "Lập trình Web",
+      "teacherId": "1"
+    },
+    {
+      "id": "3",
+      "code": "CS103",
+      "name": "Cấu trúc dữ liệu",
+      "teacherId": "1"
+    },
+    {
+      "id": "4",
+      "code": "CS104",
+      "name": "Thuật toán nâng cao",
+      "teacherId": "1"
+    },
+    {
+      "id": "5",
+      "code": "CS105",
+      "name": "Trí tuệ nhân tạo",
+      "teacherId": "1"
+    }
+  ],
+  "materials": [
+    {
+      "id": "1",
+      "title": "Giới thiệu SQL",
+      "description": "Tài liệu cơ bản về SQL và các lệnh CRUD.",
+      "link": "https://example.com/sql-intro.pdf",
+      "type": "pdf",
+      "courseId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Video Cơ sở dữ liệu",
+      "description": "Giảng giải lý thuyết cơ bản về CSDL.",
+      "link": "https://youtube.com/example1",
+      "type": "video",
+      "courseId": "1"
+    },
+    {
+      "id": "3",
+      "title": "Tài liệu HTML CSS",
+      "description": "Hướng dẫn xây dựng trang web cơ bản.",
+      "link": "https://example.com/html-css.pdf",
+      "type": "pdf",
+      "courseId": "2"
+    },
+    {
+      "id": "4",
+      "title": "Thuật toán sắp xếp",
+      "description": "Giải thích các thuật toán sắp xếp cơ bản.",
+      "link": "https://example.com/sorting.pdf",
+      "type": "pdf",
+      "courseId": "4"
+    },
+    {
+      "id": "5",
+      "title": "Video Sorting",
+      "description": "Minh hoạ trực quan các thuật toán sorting.",
+      "link": "https://youtube.com/sorting",
+      "type": "video",
+      "courseId": "4"
+    },
+    {
+      "id": "6",
+      "title": "Tài liệu AI cơ bản",
+      "description": "Giới thiệu trí tuệ nhân tạo.",
+      "link": "https://example.com/ai-intro.pdf",
+      "type": "pdf",
+      "courseId": "5"
+    },
+    {
+      "id": "7",
+      "title": "Video AI nâng cao",
+      "description": "Deep Learning và Machine Learning.",
+      "link": "https://youtube.com/ai-advanced",
+      "type": "video",
+      "courseId": "5"
+    },
+    {
+      "id": "8",
+      "title": "Linked List Notes",
+      "description": "Ghi chú về danh sách liên kết.",
+      "link": "https://example.com/linkedlist.pdf",
+      "type": "pdf",
+      "courseId": "3"
+    },
+    {
+      "id": "9",
+      "title": "Binary Tree Video",
+      "description": "Cấu trúc cây nhị phân cơ bản.",
+      "link": "https://youtube.com/binary-tree",
+      "type": "video",
+      "courseId": "3"
+    },
+    {
+      "id": "10",
+      "title": "Thuật toán tìm kiếm",
+      "description": "Giải thích các thuật toán tìm kiếm.",
+      "link": "https://example.com/search.pdf",
+      "type": "pdf",
+      "courseId": "4"
+    },
+    {
+      "id": "11",
+      "title": "Tài liệu phân tích thuật toán",
+      "description": "Phân tích độ phức tạp thời gian.",
+      "link": "https://example.com/analysis.pdf",
+      "type": "pdf",
+      "courseId": "4"
+    },
+    {
+      "id": "12",
+      "title": "Tài liệu mạng neural",
+      "description": "Cơ bản về mạng nơron nhân tạo.",
+      "link": "https://example.com/neural-net.pdf",
+      "type": "pdf",
+      "courseId": "5"
+    },
+    {
+      "id": "13",
+      "title": "Video tổng quan AI",
+      "description": "Lịch sử và ứng dụng AI.",
+      "link": "https://youtube.com/ai-overview",
+      "type": "video",
+      "courseId": "5"
+    }
+  ]
+}
