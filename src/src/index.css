@@ -1,0 +1,55 @@
+/* Reset và chuẩn hóa */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body chung */
+body {
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  background-color: #6041d1; /* nhẹ hơn cho giao diện Ant Design */
+  color: #1f1f1f;
+  line-height: 1.6;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+/* Liên kết */
+a {
+  color: #1890ff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #40a9ff;
+  text-decoration: underline;
+}
+
+/* Nút bấm */
+button {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+/* Danh sách */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Ant Design override nhẹ nếu cần */
+.ant-card {
+  border-radius: 8px;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
