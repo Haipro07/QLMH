@@ -1,0 +1,471 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "GV Napo",
+      "email": "admin@example.com",
+      "password": "111111",
+      "role": "teacher",
+      "phone": "0909000001",
+      "avatar": ""
+    },
+    {
+      "id": "2",
+      "name": "SV 23",
+      "email": "student@example.com",
+      "password": "222222",
+      "role": "student",
+      "phone": "0909000002"
+    },
+    {
+      "id": "1a7c",
+      "name": "bvefbc",
+      "email": "sv@example.com",
+      "password": "123456",
+      "role": "student",
+      "phone": "0909000003"
+    },
+    {
+      "id": "37e7",
+      "name": "Phan Thanh Hải",
+      "email": "dent@example.com",
+      "password": "123456",
+      "role": "student",
+      "phone": "0909000004"
+    },
+    {
+      "id": "a44c",
+      "name": "Nga Mi",
+      "email": "n@example.com",
+      "password": "000000",
+      "role": "student",
+      "phone": "0909000005"
+    },
+    {
+      "id": "20f3",
+      "name": "ggvkuljsd",
+      "email": "min@example.com",
+      "password": "111111",
+      "role": "teacher",
+      "phone": "0123456789"
+    },
+    {
+      "id": "9d65",
+      "name": "hbsrabvh",
+      "email": "t@example.com",
+      "password": "444444",
+      "role": "teacher",
+      "phone": "5555555555"
+    }
+  ],
+  "courses": [
+    {
+      "id": "2",
+      "code": "CS102",
+      "name": "Lập trình Web",
+      "status": "closed",
+      "fee": 50000,
+      "schedule": "2-4",
+      "max": 40,
+      "teacherId": "1"
+    },
+    {
+      "id": "1751000010001",
+      "code": "CS301",
+      "name": "Phân tích thiết kế hệ thống",
+      "status": "open",
+      "fee": 65000,
+      "schedule": "Thứ 2, 8:00",
+      "max": 60,
+      "teacherId": "20f3"
+    },
+    {
+      "id": "1751000010002",
+      "code": "CS302",
+      "name": "Lập trình hướng đối tượng",
+      "status": "open",
+      "fee": 70000,
+      "schedule": "Thứ 3, 10:00",
+      "max": 50,
+      "teacherId": "1"
+    },
+    {
+      "id": "1751000010003",
+      "code": "CS303",
+      "name": "Phát triển phần mềm",
+      "status": "open",
+      "fee": 75000,
+      "schedule": "Thứ 4, 13:00",
+      "max": 45,
+      "teacherId": "20f3"
+    },
+    {
+      "id": "1751000010004",
+      "code": "CS304",
+      "name": "Kiểm thử phần mềm",
+      "status": "open",
+      "fee": 68000,
+      "schedule": "Thứ 5, 9:30",
+      "max": 40,
+      "teacherId": "1"
+    },
+    {
+      "id": "1751000010005",
+      "code": "CS305",
+      "name": "Phát triển Web nâng cao",
+      "status": "open",
+      "fee": 72000,
+      "schedule": "Thứ 6, 15:00",
+      "max": 50,
+      "teacherId": "20f3"
+    },
+    {
+      "id": "1751000010006",
+      "code": "CS306",
+      "name": "An toàn thông tin",
+      "status": "open",
+      "fee": 79000,
+      "schedule": "Thứ 7, 8:00",
+      "max": 35,
+      "teacherId": "1"
+    },
+    {
+      "id": "3",
+      "code": "CS103",
+      "name": "Cấu trúc dữ liệu",
+      "status": "closed",
+      "fee": 60000,
+      "schedule": "6-8",
+      "max": 60,
+      "teacherId": "1"
+    },
+    {
+      "id": "5",
+      "code": "CS105",
+      "name": "Trí tuệ nhân tạo",
+      "status": "closed",
+      "fee": 50000,
+      "schedule": "5-3",
+      "max": 60,
+      "teacherId": "1"
+    },
+    {
+      "id": "1750510013862",
+      "code": "CS201",
+      "name": "MẠNG MÁY TÍNH",
+      "status": "open",
+      "fee": 55000,
+      "schedule": "2-6",
+      "max": 60,
+      "teacherId": "1"
+    },
+    {
+      "id": "1750920078370",
+      "code": "Cs333",
+      "name": "Ứng dụng đa nền tảng",
+      "fee": 598526,
+      "schedule": "Thứ 6, 6:00",
+      "status": "closed",
+      "max": 40,
+      "teacherId": "1",
+      "registered": 0
+    },
+    {
+      "id": 1750943502928,
+      "code": "Cs333",
+      "name": "Ứng dụng quản lý chi tiêu",
+      "fee": 50000,
+      "schedule": "5-3",
+      "status": "open",
+      "max": 60,
+      "teacherId": "7baf",
+      "registered": 0
+    },
+    {
+      "id": 1750946040792,
+      "code": "CE658",
+      "name": "Ứng dụng quản lý chi tiêu",
+      "fee": 55555,
+      "schedule": "Thứ 4, 6-8",
+      "status": "open",
+      "max": 88,
+      "teacherId": "1",
+      "registered": 0
+    }
+  ],
+  "materials": [
+    {
+      "id": "1",
+      "title": "Giới thiệu SQL",
+      "description": "Tài liệu cơ bản về SQL và các lệnh CRUD.",
+      "link": "https://example.com/sql-intro.pdf",
+      "type": "pdf",
+      "courseId": "3",
+      "date": "2025-06-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Video Cơ sở dữ liệu",
+      "description": "Giảng giải lý thuyết cơ bản về CSDL.",
+      "link": "https://youtube.com/example1",
+      "type": "video",
+      "courseId": "1751000010004",
+      "date": "2025-06-02T08:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Tài liệu HTML CSS",
+      "description": "Hướng dẫn xây dựng trang web cơ bản.",
+      "link": "https://example.com/html-css.pdf",
+      "type": "pdf",
+      "courseId": "2",
+      "date": "2025-06-03T15:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Thuật toán sắp xếp",
+      "description": "Giải thích các thuật toán sắp xếp cơ bản.",
+      "link": "https://example.com/sorting.pdf",
+      "type": "pdf",
+      "courseId": "3",
+      "date": "2025-06-04T09:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Video Sorting",
+      "description": "Minh hoạ trực quan các thuật toán sorting.",
+      "link": "https://youtube.com/sorting",
+      "type": "video",
+      "courseId": "1750510013862",
+      "date": "2025-06-04T16:20:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Tài liệu AI cơ bản",
+      "description": "Giới thiệu trí tuệ nhân tạo.",
+      "link": "https://example.com/ai-intro.pdf",
+      "type": "pdf",
+      "courseId": "5",
+      "date": "2025-06-05T10:15:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Video AI nâng cao",
+      "description": "Deep Learning và Machine Learning.",
+      "link": "https://youtube.com/ai-advanced",
+      "type": "video",
+      "courseId": "5",
+      "date": "2025-06-06T12:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Linked List Notes",
+      "description": "Ghi chú về danh sách liên kết.",
+      "link": "https://example.com/linkedlist.pdf",
+      "type": "pdf",
+      "courseId": "3",
+      "date": "2025-06-06T08:45:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Binary Tree Video",
+      "description": "Cấu trúc cây nhị phân cơ bản.",
+      "link": "https://youtube.com/binary-tree",
+      "type": "video",
+      "courseId": "3",
+      "date": "2025-06-07T11:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Thuật toán tìm kiếm",
+      "description": "Giải thích các thuật toán tìm kiếm.",
+      "link": "https://example.com/search.pdf",
+      "type": "pdf",
+      "courseId": "1751000010006",
+      "date": "2025-06-07T17:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Tài liệu phân tích thuật toán",
+      "description": "Phân tích độ phức tạp thời gian.",
+      "link": "https://example.com/analysis.pdf",
+      "type": "pdf",
+      "courseId": "1751000010006",
+      "date": "2025-06-08T09:30:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Video tổng quan AI",
+      "description": "Lịch sử và ứng dụng AI.",
+      "link": "https://youtube.com/ai-overview",
+      "type": "video",
+      "courseId": "5",
+      "date": "2025-06-09T14:00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Báo cáo Cuối kỳ",
+      "description": "Tài Liệu Tham Khảo",
+      "link": "https://www.temu.com/...",
+      "type": "pdf",
+      "courseId": "1750510013862",
+      "date": "2025-06-10T13:15:00Z"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr-1",
+      "studentId": "2",
+      "courseId": "2",
+      "status": [
+        "registered"
+      ]
+    },
+    {
+      "id": "enr-2",
+      "studentId": "2",
+      "courseId": "3",
+      "status": []
+    },
+    {
+      "id": "enr-3",
+      "studentId": "37e7",
+      "courseId": "5",
+      "status": [
+        "registered"
+      ]
+    }
+  ],
+  "tuition": [
+    {
+      "studentId": "2",
+      "total": 50000,
+      "dueDate": "2025-07-31",
+      "status": "paid",
+      "courseIds": [],
+      "id": "8339"
+    },
+    {
+      "id": "fee-2",
+      "studentId": "37e7",
+      "total": 50000,
+      "dueDate": "2025-07-25",
+      "status": "paid",
+      "courseIds": []
+    },
+    {
+      "id": "1750933178423",
+      "studentId": "2",
+      "total": 392000,
+      "dueDate": "2025-07-31",
+      "status": "paid",
+      "courseIds": [
+        "2",
+        "1751000010001",
+        "1751000010002",
+        "1751000010004",
+        "1751000010006",
+        "3"
+      ]
+    },
+    {
+      "id": "1750946266278",
+      "studentId": "2",
+      "total": 75000,
+      "dueDate": "2025-07-31",
+      "status": "paid",
+      "courseIds": [
+        "1751000010003"
+      ]
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg-3",
+      "studentId": "a44c",
+      "courseId": "1750510013862"
+    },
+    {
+      "id": "1750926465021",
+      "courseId": "1751000010006",
+      "studentId": "2"
+    },
+    {
+      "id": "1750926465931",
+      "courseId": "3",
+      "studentId": "2"
+    },
+    {
+      "id": "1750926745726",
+      "courseId": "2",
+      "studentId": "2",
+      "status": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "1750932095772",
+      "courseId": "1751000010001",
+      "studentId": "2",
+      "status": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "1750932242400",
+      "courseId": "1751000010004",
+      "studentId": "2",
+      "status": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "1750932244435",
+      "courseId": "1751000010002",
+      "studentId": "2",
+      "status": [
+        "cancelled"
+      ]
+    },
+    {
+      "id": "1750933287760",
+      "courseId": "1751000010001",
+      "studentId": "2",
+      "status": [
+        "registered"
+      ]
+    },
+    {
+      "id": "1750946169475",
+      "courseId": "2",
+      "studentId": "2",
+      "status": [
+        "registered"
+      ]
+    },
+    {
+      "id": "1750946171606",
+      "courseId": "1751000010002",
+      "studentId": "2",
+      "status": [
+        "registered"
+      ]
+    },
+    {
+      "id": "1750946246067",
+      "courseId": "1751000010003",
+      "studentId": "2",
+      "status": [
+        "registered"
+      ]
+    },
+    {
+      "id": "1750946247104",
+      "courseId": "1751000010004",
+      "studentId": "2",
+      "status": [
+        "registered"
+      ]
+    }
+  ]
+}

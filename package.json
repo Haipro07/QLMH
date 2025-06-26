@@ -1,0 +1,41 @@
+{
+  "name": "react-online-learning",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý học trực tuyến với React, Ant Design",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 3001",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "antd",
+    "axios",
+    "online-learning"
+  ],
+  "dependencies": {
+    "@vitejs/plugin-legacy": "^6.1.1",
+    "antd": "^5.26.1",
+    "axios": "^1.9.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.57.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.35",
+    "@types/react-dom": "^18.2.14",
+    "typescript": "^4.9.5"
+  },
+  "proxy": "http://localhost:3001", 
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
+}
