@@ -8,9 +8,8 @@
    git clone https://github.com/Haipro07/QLMH.git
 
 3. **Cài đặt các package cần thiết:**
-   npm install
-   cd backend-upload
-   npm install
+   - npm install
+   - cd backend-upload -> npm install
 5. **Chạy ứng dụng:**
    - Server giả lập (JSON Server) chạy ở port 3002: json-server --watch db.json --port 3002  
    - Ứng dụng React chạy ở port 3000: npm start  
